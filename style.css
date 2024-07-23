@@ -1,0 +1,2014 @@
+/*CELULARES*/
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 200px) and (max-width: 600px) {
+
+	/*TIPO DE LETRAS*/
+
+	@font-face {
+		font-family: sweet;
+		src: url(/fonts/SweetLeaf.ttf);
+	}
+
+	@font-face {
+		font-family: golden;
+		src: url(/fonts/Golden\ Brick\ Personal\ Use.ttf);
+	}
+
+	@font-face {
+		font-family: weater;
+		src: url(/fonts/Weather\ Sunday\ -\ Personal\ Use.otf);
+	}
+
+	/*BODY*/
+
+	* {
+		cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	#kd {
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.encabzado {
+		background-color: cadetblue;
+		padding-top: 5px;
+		width: 100%;
+	}
+
+	.tt {
+		color: black;
+		font-family: sweet;
+		font-size: 16px;
+	}
+
+	.titulo {
+		font-size: 20px;
+		font-weight: 100;
+		color: red;
+	}
+
+	.logo {
+		width: 300px;
+		height: 250px;
+		margin-top: 15px;
+		animation: spiner 2s both linear;
+		animation-delay: spiner 5s linear;
+	}
+
+	kbd {
+		width: 100%;
+		align-items: center;
+		align-content: center;
+		background-color: black;
+		border-radius: 3px;
+		border: 1px solid blue;
+		box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2), 0 2px 0 0 rgba(0, 0, 0, 0.7) inset;
+		color: gold;
+		font-size: 20px;
+		padding: 0.1em;
+		font-weight: 200;
+	}
+
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation: none;
+	}
+
+	::view-transition-old(*) {
+		animation: 300ms cubic-bezier(0.4, 0, 0.2, 1) both drop-from-top;
+	}
+
+	::view-transition-new(*) {
+		animation: 300ms 200ms cubic-bezier(0.4, 0, 0.2, 1) both drop-to-bottom;
+	}
+
+	@keyframes drop-from-top {
+		from {
+			transform: translateY(-50vh);
+		}
+	}
+
+	@keyframes drop-to-bottom {
+		to {
+			transform: translateY(50vh);
+		}
+	}
+
+	@keyframes spiner {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		50% {
+			transform: rotate(180deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	/*GALERIA*/
+
+	#galeria {
+		width: 100%;
+		background: linear-gradient(blue, green, lime, navy);
+		position: relative;
+	}
+
+	.n1,
+	.n2,
+	.n3,
+	.n4,
+	.n5,
+	.n6,
+	.n7,
+	.n8,
+	.n9 {
+		font-size: 25px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: #ff0909;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 1;
+		transform: scale(1.2);
+	}
+
+	.img1 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/beneficios-del-mantenimiento-preventivo-easymaint-1.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img2 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/luz-led-y-automatizacion-de-puertas-614948.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img3 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/lumin.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img4 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/sistema-contra-incendios.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img5 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/cercoelectrico2.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img6 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/camaras-de-seguridad.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img7 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/patch-panel.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img8 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/prev.png');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img9 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/axeso.jpeg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	/*CONTECTO*/
+
+	#knt4k {
+		background-color: black;
+		height: 495vh;
+		width: 100%;
+		position: relative;
+	}
+
+	.tir {
+		font-family: weater;
+		font-size: 45px;
+		font-weight: 100;
+		margin-top: 20px;
+		color: rgb(35, 146, 141);
+		position: relative;
+		text-shadow: 1px 1px 5px white;
+		transition: 0.5s;
+	}
+
+	.tir:hover {
+		color: black;
+	}
+
+	.raya {
+		height: 10px;
+		width: 65%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+		background: white;
+		position: relative;
+		animation: parp 2s both infinite linear;
+	}
+
+	.wrapper,
+	.wrapper_2,
+	.wrapper_3 {
+		position: relative;
+		align-items: center;
+		align-content: center;
+	}
+
+	.cube {
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		transform-style: preserve-3d;
+		transition: 1s;
+		animation: animate 20s linear infinite;
+	}
+
+	.cube div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+	}
+
+	.cube div span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(black, gold);
+		transform: rotateY(calc(90deg * var(--i))) translateZ(50px);
+		box-shadow: 5px 5px 15px purple;
+	}
+
+	@keyframes animate {
+		0% {
+			transform: rotateX(-30deg) rotateY(0deg);
+		}
+
+		100% {
+			transform: rotateX(-30deg) rotateY(360deg);
+		}
+	}
+
+	.top {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.574);
+		transform: rotateX(90deg) translateZ(50px);
+	}
+
+	.correo,
+	.top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(/img/gmail.png);
+		background-position: center;
+		background-size: 100px;
+		background-repeat: no-repeat;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px gold inset, 0 0 80px gold, 0 0 100px gold;
+	}
+
+	.wrapper_2 {
+		margin-top: 210px;
+		top: 0;
+		left: 0;
+	}
+
+	.wrapper_2 .cube div span {
+		background: linear-gradient(black, lime);
+	}
+
+	.whats,
+	.wrapper_2 .top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(/img/whatsapp.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px lime inset, 0 0 80px lime, 0 0 100px lime;
+	}
+
+	.wrapper_3 {
+		margin-top: 210px;
+		top: 0;
+		left: 0;
+	}
+
+	.wrapper_3 .cube div span {
+		background: linear-gradient(black, red);
+	}
+
+	.tel,
+	.wrapper_3 .top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: transparent;
+		position: absolute;
+		border-radius: 100%;
+		background: url(/img/577.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px red inset, 0 0 80px red, 0 0 100px red;
+	}
+
+	.correo {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.tel {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.whats {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	/*CONTACTO_2*/
+
+	.cua {
+		margin-top: 12em;
+	}
+
+	.tro {
+		font-family: golden;
+		font-size: 40px;
+		color: navy;
+		font-weight: 600;
+		position: relative;
+		text-shadow: 0px 0px 15px lime;
+	}
+
+	.tro:hover {
+		color: black;
+	}
+
+	.raya2 {
+		height: 10px;
+		width: 80%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+		margin-left: 20px;
+		background: white;
+		position: relative;
+		animation: parp 2s both infinite linear;
+	}
+
+	@keyframes parp {
+		to {
+			background-color: white;
+			box-shadow: 1px 1px 5px white;
+		}
+	}
+
+	.redes,
+	.redes_2,
+	.redes_3 {
+		position: relative;
+		align-items: center;
+		align-content: center;
+	}
+
+	.cubo {
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		transform-style: preserve-3d;
+		transition: 1s;
+		animation: anime 20s linear infinite reverse;
+	}
+
+	.cubo div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+	}
+
+	.cubo div span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(black, gold);
+		transform: rotateY(calc(90deg * var(--j))) translateZ(50px);
+		box-shadow: 5px 5px 15px purple;
+	}
+
+	@keyframes anime {
+		0% {
+			transform: rotateX(-30deg) rotateY(0deg);
+		}
+
+		100% {
+			transform: rotateX(-30deg) rotateY(360deg);
+		}
+	}
+
+	.arriba {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.574);
+		transform: rotateX(90deg) translateZ(50px);
+	}
+
+	.Mail,
+	.arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 100%;
+		background: url(/img/gmail.png);
+		background-position: center;
+		background-size: 100px;
+		background-repeat: no-repeat;
+		transform: translateZ(-200px);
+		border-radius: 100%;
+		box-shadow: 0 0 40px gold inset, 0 0 80px gold, 0 0 100px gold;
+	}
+
+	.redes_2 {
+		margin-top: 210px;
+		top: 0;
+		left: 0;
+	}
+
+	.redes_2 .cubo div span {
+		background: linear-gradient(black, lime);
+	}
+
+	.wa,
+	.redes_2 .arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url(/img/whatsapp.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px lime inset, 0 0 80px lime, 0 0 100px lime;
+		color: transparent;
+		border-radius: 100%;
+	}
+
+	.redes_3 {
+		margin-top: 210px;
+		top: 0;
+		left: 0;
+	}
+
+	.redes_3 .cubo div span {
+		background: linear-gradient(black, red);
+	}
+
+	.TL,
+	.redes_3 .arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		color: transparent;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url(/img/577.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		border-radius: 100%;
+		box-shadow: 0 0 40px red inset, 0 0 80px red, 0 0 100px red;
+	}
+
+	.Mail {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.TL {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.wa {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+/*TABLETS*/
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+	/*TIPO DE LETRAS*/
+
+	@font-face {
+		font-family: sweet;
+		src: url(/fonts/SweetLeaf.ttf);
+	}
+
+	@font-face {
+		font-family: golden;
+		src: url(/fonts/Golden\ Brick\ Personal\ Use.ttf);
+	}
+
+	@font-face {
+		font-family: weater;
+		src: url(/fonts/Weather\ Sunday\ -\ Personal\ Use.otf);
+	}
+
+	/*BODY*/
+
+	* {
+		cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	#kd {
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.encabzado {
+		background-color: cadetblue;
+		padding-top: 5px;
+	}
+
+	.tt {
+		color: black;
+		font-family: sweet;
+		font-size: 25px;
+	}
+
+	.titulo {
+		font-size: 30px;
+		font-weight: 800;
+		color: red;
+	}
+
+	.logo {
+		width: 350px;
+		height: 200px;
+		margin-top: 15px;
+		animation: spiner 2s both linear;
+		animation-delay: spiner 5s linear;
+	}
+
+	kbd {
+		width: 100%;
+		align-items: center;
+		align-content: center;
+		background-color: black;
+		border-radius: 3px;
+		border: 1px solid blue;
+		box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2),
+			0 2px 0 0 rgba(0, 0, 0, 0.7) inset;
+		color: gold;
+		font-size: 22px;
+		padding: 0.1em;
+	}
+
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation: none;
+	}
+
+	::view-transition-old(*) {
+		animation: 300ms cubic-bezier(0.4, 0, 0.2, 1) both drop-from-top;
+	}
+
+	::view-transition-new(*) {
+		animation: 300ms 200ms cubic-bezier(0.4, 0, 0.2, 1) both drop-to-bottom;
+	}
+
+	@keyframes drop-from-top {
+		from {
+			transform: translateY(-50vh);
+		}
+	}
+
+	@keyframes drop-to-bottom {
+		to {
+			transform: translateY(50vh);
+		}
+	}
+
+	@keyframes spiner {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		50% {
+			transform: rotate(180deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	/*GALERIA*/
+
+	#galeria {
+		width: 100%;
+		background: linear-gradient(blue, green, lime, navy);
+		position: relative;
+	}
+
+	.n1,
+	.n2,
+	.n3,
+	.n4,
+	.n5,
+	.n6,
+	.n7,
+	.n8,
+	.n9 {
+		font-size: 40px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: red;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+
+	.img1 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/beneficios-del-mantenimiento-preventivo-easymaint-1.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img2 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/luz-led-y-automatizacion-de-puertas-614948.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img3 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/anuncios\ luminosos.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img4 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/sistema-contra-incendios.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img5 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/cercoelectrico2.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img6 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/camaras-de-seguridad.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img7 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/patch-panel.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img8 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/Imagen1.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img9 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/axeso.jpeg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	/*CONTECTO*/
+
+	#knt4k {
+		background-color: black;
+		height: 280vh;
+		width: 100%;
+		position: relative;
+	}
+
+	.tir {
+		font-family: weater;
+		font-size: 45px;
+		font-weight: 100;
+		margin-top: 20px;
+		color: rgb(35, 146, 141);
+		position: relative;
+		text-shadow: 1px 1px 5px white;
+		transition: 0.5s;
+	}
+
+	.tir:hover {
+		color: black;
+	}
+
+	.raya {
+		height: 10px;
+		width: 65%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+		background: white;
+		position: relative;
+		animation: parp 2s both infinite linear;
+	}
+
+	.wrapper,
+	.wrapper_2,
+	.wrapper_3 {
+		position: relative;
+		align-items: center;
+		align-content: center;
+	}
+
+	.cube {
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		transform-style: preserve-3d;
+		transition: 1s;
+		animation: animate 20s linear infinite;
+	}
+
+	.cube div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+	}
+
+	.cube div span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(black, gold);
+		transform: rotateY(calc(90deg * var(--i))) translateZ(50px);
+		box-shadow: 5px 5px 15px purple;
+	}
+
+	@keyframes animate {
+		0% {
+			transform: rotateX(-30deg) rotateY(0deg);
+		}
+
+		100% {
+			transform: rotateX(-30deg) rotateY(360deg);
+		}
+	}
+
+	.top {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.574);
+		transform: rotateX(90deg) translateZ(50px);
+	}
+
+	.correo,
+	.top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(/img/gmail.png);
+		background-position: center;
+		background-size: 100px;
+		background-repeat: no-repeat;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px gold inset, 0 0 80px gold, 0 0 100px gold;
+	}
+
+	.wrapper_2 {
+		float: left;
+		top: 45px;
+		left: 90px;
+	}
+
+	.wrapper_2 .cube div span {
+		background: linear-gradient(black, lime);
+	}
+
+	.whats,
+	.wrapper_2 .top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(/img/whatsapp.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px lime inset, 0 0 80px lime, 0 0 100px lime;
+	}
+
+	.wrapper_3 {
+		float: right;
+		top: 45px;
+		left: -90px;
+	}
+
+	.wrapper_3 .cube div span {
+		background: linear-gradient(black, red);
+	}
+
+	.tel,
+	.wrapper_3 .top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: transparent;
+		position: absolute;
+		border-radius: 100%;
+		background: url(/img/577.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px red inset, 0 0 80px red, 0 0 100px red;
+	}
+
+	.correo {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.tel {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.whats {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	/*CONTACTO_2*/
+
+	.cua {
+		margin-top: 22em;
+	}
+
+	.tro {
+		font-family: golden;
+		font-size: 40px;
+		color: navy;
+		font-weight: 600;
+		position: relative;
+		text-shadow: 0px 0px 15px lime;
+	}
+
+	.tro:hover {
+		color: black;
+	}
+
+	.raya2 {
+		height: 10px;
+		width: 75%;
+		margin-top: 15px;
+		margin-bottom: 40px;
+		margin-left: 20px;
+		background: white;
+		position: relative;
+		animation: parp 2s both infinite linear;
+	}
+
+	@keyframes parp {
+		to {
+			background-color: white;
+			box-shadow: 1px 1px 5px white;
+		}
+	}
+
+	.redes,
+	.redes_2,
+	.redes_3 {
+		position: relative;
+		align-items: center;
+		align-content: center;
+	}
+
+	.cubo {
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		transform-style: preserve-3d;
+		transition: 1s;
+		animation: anime 20s linear infinite reverse;
+	}
+
+	.cubo div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+	}
+
+	.cubo div span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(black, gold);
+		transform: rotateY(calc(90deg * var(--j))) translateZ(50px);
+		box-shadow: 5px 5px 15px purple;
+	}
+
+	@keyframes anime {
+		0% {
+			transform: rotateX(-30deg) rotateY(0deg);
+		}
+
+		100% {
+			transform: rotateX(-30deg) rotateY(360deg);
+		}
+	}
+
+	.arriba {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.574);
+		transform: rotateX(90deg) translateZ(50px);
+	}
+
+	.Mail,
+	.arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 100%;
+		background: url(/img/gmail.png);
+		background-position: center;
+		background-size: 100px;
+		background-repeat: no-repeat;
+		transform: translateZ(-200px);
+		border-radius: 100%;
+		box-shadow: 0 0 40px gold inset, 0 0 80px gold, 0 0 100px gold;
+	}
+
+	.redes_2 {
+		float: left;
+		top: 45px;
+		left: 90px;
+	}
+
+	.redes_2 .cubo div span {
+		background: linear-gradient(black, lime);
+	}
+
+	.wa,
+	.redes_2 .arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url(/img/whatsapp.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		box-shadow: 0 0 40px lime inset, 0 0 80px lime, 0 0 100px lime;
+		color: transparent;
+		border-radius: 100%;
+	}
+
+	.redes_3 {
+		float: right;
+		top: 45px;
+		left: -90px;
+	}
+
+	.redes_3 .cubo div span {
+		background: linear-gradient(black, red);
+	}
+
+	.TL,
+	.redes_3 .arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		color: transparent;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url(/img/577.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		transform: translateZ(-200px);
+		border-radius: 100%;
+		box-shadow: 0 0 40px red inset, 0 0 80px red, 0 0 100px red;
+	}
+
+	.Mail {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.TL {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.wa {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+/*COMPUTADORAS*/
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 901px) and (max-width: 2000px) {
+
+	/*TIPO DE LETRAS*/
+
+	@font-face {
+		font-family: sweet;
+		src: url(/fonts/SweetLeaf.ttf);
+	}
+
+	@font-face {
+		font-family: golden;
+		src: url(/fonts/Golden\ Brick\ Personal\ Use.ttf);
+	}
+
+	@font-face {
+		font-family: weater;
+		src: url(/fonts/Weather\ Sunday\ -\ Personal\ Use.otf);
+	}
+
+	/*BODY*/
+
+	* {
+		cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	#kd {
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.encabzado {
+		background-color: cadetblue;
+		padding-top: 10px;
+	}
+
+	.tt {
+		color: black;
+		font-family: sweet;
+		font-size: 50px;
+	}
+
+	.titulo {
+		font-size: 60px;
+		font-weight: 1000;
+		color: red;
+	}
+
+	.logo {
+		width: 700px;
+		height: 400px;
+		margin-top: 15px;
+		animation: spiner 2s both linear;
+		animation-delay: spiner 5s linear;
+	}
+
+	kbd {
+		width: 100%;
+		align-items: center;
+		align-content: center;
+		background-color: black;
+		border-radius: 3px;
+		border: 1px solid blue;
+		box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2),
+			0 2px 0 0 rgba(0, 0, 0, 0.7) inset;
+		color: gold;
+		font-size: 34px;
+		padding: 0.1em;
+	}
+
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation: none;
+	}
+
+	::view-transition-old(*) {
+		animation: 300ms cubic-bezier(0.4, 0, 0.2, 1) both drop-from-top;
+	}
+
+	::view-transition-new(*) {
+		animation: 300ms 200ms cubic-bezier(0.4, 0, 0.2, 1) both drop-to-bottom;
+	}
+
+	@keyframes drop-from-top {
+		from {
+			transform: translateY(-50vh);
+		}
+	}
+
+	@keyframes drop-to-bottom {
+		to {
+			transform: translateY(50vh);
+		}
+	}
+
+	@keyframes spiner {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		50% {
+			transform: rotate(180deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	/*GALERIA*/
+
+	#galeria {
+		width: 100%;
+		background: linear-gradient(blue, green, lime, navy);
+		position: relative;
+	}
+
+
+	.n1,
+	.n2 { 
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 10rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+
+
+	.n3 {
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+	
+	
+	.n4 {
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+
+	.n5  {
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+
+
+	.n6 {
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+	
+	
+	.n7 { 
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+
+	.n8 {
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+	}
+
+	.n9 {
+		font-size: 80px;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 18rem;
+		color: navy;
+		display: inline-block;
+		font-weight: 1000;
+		opacity: 0.8;
+		transform: scale(1.2);
+		/* animation: in 3.5s cubic-bezier(0.100, 0.200, 0.300, 1)both infinite ;  */
+	}
+
+	@keyframes in {
+	 0% {
+			 letter-spacing: 8rem;
+				opacity: 0.8;
+			 transform: translateY(15rem);
+		}	
+		50% {
+			transform: scaleX(320px);
+
+		
+		}
+	}
+
+	.img1 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/beneficios-del-mantenimiento-preventivo-easymaint-1.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img2 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/luz-led-y-automatizacion-de-puertas-614948.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img3 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/anuncios\ luminosos.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img4 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/sistema-contra-incendios.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img5 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/cercoelectrico2.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img6 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/camaras-de-seguridad.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img7 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/patch-panel.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img8 {
+		width: 100%;
+		height: 900px;
+		background-image: url('/img/Imagen1.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img9 {
+		height: 900px;
+		width: 100%;
+		background-image: url('/img/axeso.jpeg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	/*CONTECTO*/
+
+	#knt4k {
+		background-color: black;
+		height: 260vh;
+		width: 100%;
+		position: relative;
+	}
+
+	.tir {
+		font-family: weater;
+		font-size: 60px;
+		font-weight: 100;
+		margin-top: 20px;
+		color: rgb(35, 146, 141);
+		position: relative;
+		text-shadow: 1px 1px 5px white;
+		transition: 0.5s;
+	}
+
+	.tir:hover {
+		color: black;
+	}
+
+	.raya {
+		height: 10px;
+		width: 40%;
+		margin-top: 15px;
+		margin-bottom: 60px;
+		background: white;
+		position: relative;
+		animation: parp 2s both infinite linear;
+	}
+
+	.wrapper,
+	.wrapper_2,
+	.wrapper_3 {
+		position: relative;
+		align-items: center;
+		align-content: center;
+	}
+
+	.cube {
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 150px;
+		height: 150px;
+		transform-style: preserve-3d;
+		transition: 1s;
+		animation: animate 20s linear infinite;
+	}
+
+	.cube div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+		align-content: space-evenly;
+	}
+
+	.cube div span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(black, gold);
+		transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
+		box-shadow: 5px 5px 15px purple;
+	}
+
+	@keyframes animate {
+		0% {
+			transform: rotateX(-30deg) rotateY(0deg);
+		}
+
+		100% {
+			transform: rotateX(-30deg) rotateY(360deg);
+		}
+	}
+
+	.top {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.574);
+		transform: rotateX(90deg) translateZ(75px);
+	}
+
+	.correo,
+	.top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(/img/gmail.png);
+		background-position: center;
+		background-size: 150px;
+		background-repeat: no-repeat;
+		transform: translateZ(-300px);
+		box-shadow: 0 0 50px gold inset, 0 0 100px gold, 0 0 150px gold;
+	}
+
+	.wrapper_2 {
+		float: left;
+		top: -150px;
+		left: 190px;
+	}
+
+	.wrapper_2 .cube div span {
+		background: linear-gradient(black, lime);
+	}
+
+	.whats,
+	.wrapper_2 .top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(/img/whatsapp.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 150px;
+		transform: translateZ(-300px);
+		box-shadow: 0 0 50px lime inset, 0 0 100px lime, 0 0 150px lime;
+	}
+
+	.wrapper_3 {
+		float: right;
+		top: -150px;
+		left: -190px;
+	}
+
+	.wrapper_3 .cube div span {
+		background: linear-gradient(black, red);
+	}
+
+	.tel,
+	.wrapper_3 .top::before {
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: transparent;
+		position: absolute;
+		border-radius: 100%;
+		background: url(/img/577.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 150px;
+		transform: translateZ(-300px);
+		box-shadow: 0 0 50px red inset, 0 0 100px red, 0 0 150px red;
+	}
+
+	.correo {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.tel {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.whats {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	/*CONTACTO_2*/
+
+	.cua {
+		margin-top: 18em;
+	}
+
+	.tro {
+		font-family: golden;
+		font-size: 60px;
+		color: navy;
+		font-weight: 600;
+		position: relative;
+		text-shadow: 0px 0px 15px lime;
+	}
+
+	.tro:hover {
+		color: black;
+	}
+
+	.raya2 {
+		height: 10px;
+		width: 50%;
+		margin-top: 15px;
+		margin-bottom: 60px;
+		margin-left: 20px;
+		background: white;
+		position: relative;
+		animation: parp 2s both infinite linear;
+	}
+
+	@keyframes parp {
+		to {
+			background-color: white;
+			box-shadow: 1px 1px 5px white;
+		}
+	}
+
+	.redes,
+	.redes_2,
+	.redes_3 {
+		position: relative;
+		align-items: center;
+		align-content: center;
+	}
+
+	.cubo {
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 150px;
+		height: 150px;
+		transform-style: preserve-3d;
+		transition: 1s;
+		animation: anime 20s linear infinite reverse;
+	}
+
+	.cubo div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+	}
+
+	.cubo div span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(black, gold);
+		transform: rotateY(calc(90deg * var(--j))) translateZ(75px);
+		box-shadow: 5px 5px 15px purple;
+	}
+
+	@keyframes anime {
+		0% {
+			transform: rotateX(-30deg) rotateY(0deg);
+		}
+
+		100% {
+			transform: rotateX(-30deg) rotateY(360deg);
+		}
+	}
+
+	.arriba {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.574);
+		transform: rotateX(90deg) translateZ(75px);
+	}
+
+	.Mail,
+	.arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 100%;
+		background: url(/img/gmail.png);
+		background-position: center;
+		background-size: 150px;
+		background-repeat: no-repeat;
+		transform: translateZ(-300px);
+		border-radius: 100%;
+		box-shadow: 0 0 50px gold inset, 0 0 100px gold, 0 0 150px gold;
+	}
+
+	.redes_2 {
+		float: left;
+		top: -150px;
+		left: 190px;
+	}
+
+	.redes_2 .cubo div span {
+		background: linear-gradient(black, lime);
+	}
+
+	.wa,
+	.redes_2 .arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url(/img/whatsapp.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 150px;
+		transform: translateZ(-300px);
+		box-shadow: 0 0 50px lime inset, 0 0 100px lime, 0 0 150px lime;
+		color: transparent;
+		border-radius: 100%;
+	}
+
+	.redes_3 {
+		float: right;
+		top: -150px;
+		left: -190px;
+	}
+
+	.redes_3 .cubo div span {
+		background: linear-gradient(black, red);
+	}
+
+	.TL,
+	.redes_3 .arriba::before {
+		content: "";
+		top: 0;
+		left: 0;
+		color: transparent;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url(/img/577.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 150px;
+		transform: translateZ(-300px);
+		border-radius: 100%;
+		box-shadow: 0 0 50px red inset, 0 0 100px red, 0 0 150px red;
+	}
+
+	.Mail {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.TL {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+
+	.wa {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: transparent;
+	}
+}
